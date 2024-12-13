@@ -1,0 +1,30 @@
+project:
+  type: book
+
+book:
+  title: "Quantitative fisheries science using the FLR tools"
+  author: "FLR"
+  date: "2025"
+  chapters:
+    - intro.qmd
+    - start.qmd
+    - working.qmd
+    - model.qmd
+    - advice.qmd
+    - mse.qmd
+    - oms.qmd
+    - classes.qmd
+    - extending.qmd
+    - references.qmd
+    - index.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
